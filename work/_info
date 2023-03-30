@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lam Tuong Cat/Downloads/CSE 369/Lab 1-2
+vlab2
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1642266563
+!i10b 1
+!s100 LYiSD_@]R?92al:nDKo4D3
+I7Z7c?@THnEaf;E]020WMf2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 lab2_sv_unit
+S1
+Z4 dC:/Users/Lam Tuong Cat/Downloads/CSE 369/Lab 1-2/Programs and Simulation
+Z5 w1642205021
+Z6 8./lab2.sv
+Z7 F./lab2.sv
+L0 4
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1642266563.000000
+Z10 !s107 ./lab2.sv|
+Z11 !s90 -reportprogress|300|./lab2.sv|
+!i113 1
+Z12 tCvgOpt 0
+vlab2_testbench
+R0
+R1
+!i10b 1
+!s100 9@<zibdj1d6oWAKhF]1Cj0
+IdzgFhnR?oH@89aC;bV<TE0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 27
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmux2_1
+R0
+R1
+!i10b 1
+!s100 db@k@fnga:kY6M:UDM?iV1
+IJ>QNS`gdkcliNLo;gQk_83
+R2
+Z13 !s105 mux2_1_sv_unit
+S1
+R4
+Z14 w1641961473
+Z15 8./mux2_1.sv
+Z16 F./mux2_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z17 !s108 1642266562.000000
+Z18 !s107 ./mux2_1.sv|
+Z19 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R12
+vmux2_1_testbench
+R0
+R1
+!i10b 1
+!s100 LKJfAK@FQE9c6MnMRVZR[1
+I;`B6HeHN863;2OBklYY=n2
+R2
+R13
+S1
+R4
+R14
+R15
+R16
+L0 8
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R12
+vmux4_1
+R0
+R1
+!i10b 1
+!s100 E7R1Cg6SkhaPO]9<9MDj:0
+I11V?a:nHG07?Y623?jN2j0
+R2
+Z20 !s105 mux4_1_sv_unit
+S1
+R4
+Z21 w1641961438
+Z22 8./mux4_1.sv
+Z23 F./mux4_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z24 !s107 ./mux4_1.sv|
+Z25 !s90 -reportprogress|300|./mux4_1.sv|
+!i113 1
+R12
+vmux4_1_testbench
+R0
+R1
+!i10b 1
+!s100 Lj@3aiAF:ebXQj>YX1=n33
+I27Z0dM0fDQ;j;K;nec2iU2
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!i113 1
+R12

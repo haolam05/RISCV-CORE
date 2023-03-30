@@ -1,0 +1,45 @@
+#!/bin/bash
+if [[ $1 == "cpu" ]]
+then
+    echo "Testing 'Hi! '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 01111001; HEX2: 11101111; HEX3: 10001001"  # "Hi! "
+
+    echo
+    echo "Testing 'We  '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 11111111; HEX2: 10000100; HEX3: 11010101"  # "We  "
+
+    echo
+    echo "Testing 'are '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 10000100; HEX2: 10101111; HEX3: 10100000"  # "are "
+
+    echo
+    echo "Testing 'Hao '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 10100011; HEX2: 10100000; HEX3: 10001001"  # "Hao "
+
+    echo
+    echo "Testing 'and '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 10100001; HEX2: 10101011; HEX3: 10100000"  # "and "
+
+    echo
+    echo "Testing 'Cat '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 10000111; HEX2: 10100000; HEX3: 11000110"  # "Cat "
+
+    echo
+    echo "Testing 'Yo! '"
+    ./cpu | grep --color -E "HEX0: 11111111; HEX1: 01111001; HEX2: 10100011; HEX3: 10010001"  # "Yo! "
+
+    echo
+    echo "Testing '1234'"
+    ./cpu | grep --color -E "HEX0: 10011001; HEX1: 10110000; HEX2: 10100100; HEX3: 11111001"  # "1234"
+
+    #echo
+    #echo "Testing 'Done'"
+    #./cpu | grep --color -E "HEX0: 10000100; HEX1: 10101011; HEX2: 10100011; HEX3: 10100001"  # "Done"
+fi
+
+if [[ $1 == "lint" ]]
+then
+echo
+echo "Testing Verilator lint"
+verilator --lint-only -Wall riscv32.sv instruction_memory.sv data_memory.sv display_control.sv display.sv load.sv alu.sv counter.sv clock_divider.sv decode.sv
+fi
