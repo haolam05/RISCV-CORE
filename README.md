@@ -4,8 +4,10 @@ Introduction:
 - Can run arbitrary code that had compiled to RV32 executable
 - Pipelining stages are added to increase throughput
 - Demonstrate C printf() working by displaying string on FPGA 7 segment displays
+- Refer to "Project Video.mp4" in the project folder
 
 To run:
+
 In top level module riscv32.sv:
 - Simulation & Testing
 	+ comment out the riscv32_testbench()
