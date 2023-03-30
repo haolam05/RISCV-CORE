@@ -6,6 +6,7 @@ Introduction:
 - Demonstrate C printf() working by displaying string on FPGA 7 segment displays
 
 To run:
+In top level module riscv32.sv:
 - Simulation & Testing
 	+ comment out the riscv32_testbench()
 	+ Set clkSelect = CLOCK_50 for Simulation on line 262
