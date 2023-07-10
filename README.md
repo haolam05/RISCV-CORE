@@ -18,3 +18,6 @@ In top level module riscv32.sv:
 - on FPGA (Set to correct version in chosen software)
 	+ Set clkSelect = div_clk[WHICH_CLK] on line 263
 	+ Compile and upload to the board
+
+https://github.com/haolam05/RISCV-CORE/assets/71291057/5f4a9172-fd1b-467c-82cd-4c4b0a5684e1
+
